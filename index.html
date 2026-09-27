@@ -99,7 +99,7 @@
   </div></div>
 
   <main class="wrap layout">
-    <nav class="side" aria-label="On this page"><p>Field index</p><a href="#routes">Entry routes</a><a href="#selection">Selection map</a><a href="#library">Study library</a><a href="#study-material">Study material</a><a href="#one-liners">One-liners</a><a href="#capsules">Capsules</a><a href="#plan">12-week plan</a><a href="#practice">Practice test</a><a href="#ssb">SSB room</a><a href="#fitness">Fitness</a><a href="#channels">Telegram</a><a href="#sources">Sources</a><a href="#resources">Resources</a></nav>
+    <nav class="side" aria-label="On this page"><p>Field index</p><a href="#routes">Entry routes</a><a href="#selection">Selection map</a><a href="#library">Study library</a><a href="#study-material">Study material</a><a href="#one-liners">One-liners</a><a href="#capsules">Capsules</a><a href="#plan">12-week plan</a><a href="#practice">Practice test</a><a href="#ssb">SSB room</a><a href="#fitness">Fitness</a><a href="#channels">Telegram</a><a href="#sources">Sources</a><a href="#resources">Resources</a><a href="#important-videos">Videos</a></nav>
     <div>
       <section id="routes">
         <div class="section-top"><h2>Choose your entry</h2><p>Start with the route that matches your education and career stage. Always confirm age, medical and stream eligibility in the active notice.</p></div>
@@ -330,7 +330,7 @@
 <h4>Record defence budget FY 2026-27</h4>
 <p>Presented 1 February 2026 by Finance Minister Nirmala Sitharaman: <strong>₹7,84,678 crore</strong> — India's largest-ever defence allocation, up ~15.3% from FY 2025-26's ₹6,81,210 crore, and the largest single-ministry outlay in the Union Budget. Components: <strong>capital outlay ₹2,19,306 crore</strong> (+21.84%, ~28% of the total; ₹63,733 crore for aircraft & aero engines, ₹25,023 crore for the naval fleet), <strong>revenue expenditure ₹3,65,479 crore</strong> (+17.24%), <strong>defence pensions ₹1,71,338 crore</strong> (+6.53%). The budget also cut customs duties to boost aerospace manufacturing — a favourite "statement-based" MCQ angle.</p>
 <h4>New military leadership (mid-2026)</h4>
-<p>A near-complete change of guard occurred in mid-2026: <strong>CDS General Raja Subramani</strong> (from 31 May 2026), <strong>COAS General Dhiraj Seth</strong> (from 30 June 2026); <strong>CAS Air Chief Marshal Amar Preet Singh</strong> (in office since 30 September 2024). The <strong>President, Droupadi Murmu, remains Supreme Commander</strong>. Leadership-change questions are a staple of AFCAT/NDA current-awareness sections — learn this table.</p>
+<p>A near-complete change of guard occurred in mid-2026: <strong>CDS General Raja Subramani</strong> (from 31 May 2026), <strong>COAS General Dhiraj Seth</strong> (from 30 June 2026), <strong>CNS Vice Admiral Krishna Swaminathan</strong> (from 31 May 2026, the 27th Chief of the Naval Staff); <strong>CAS Air Chief Marshal Amar Preet Singh</strong> (in office since 30 September 2024). The <strong>President, Droupadi Murmu, remains Supreme Commander</strong>. Leadership-change questions are a staple of AFCAT/NDA current-awareness sections — learn this table.</p>
 <h4>Indigenisation milestones</h4>
 <p>DRDO's <strong>Kusha long-range surface-to-air missile</strong> had its maiden flight test in <strong>July 2026</strong> — designed to counter aircraft, missiles and UAVs. India signed a <strong>₹1,943-crore lease for two MQ-9B Sea Guardian drones</strong>. Defence exports continue to rise (80+ buyer countries; the stated goal is ₹50,000 crore in annual exports by 2029). The two <strong>Defence Industrial Corridors (UP and Tamil Nadu)</strong> and <strong>iDEX</strong> startup challenges remain the policy backbone of Atmanirbharta.</p>
 <h4>Exercises and national developments in the news</h4>
@@ -921,6 +921,263 @@
 
 </section>
 
+<section id="important-videos" class="def-videos" aria-label="Important Videos">
+  <style>
+    .def-videos{max-width:1100px;margin:2.5rem auto;padding:0 1rem}
+    .def-videos h2{font-size:1.6rem;margin-bottom:.4rem}
+    .def-videos .def-videos-sub{opacity:.75;margin-bottom:1.2rem;font-size:.95rem}
+    .def-videos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem}
+    .def-video-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:12px;overflow:hidden;cursor:pointer;transition:transform .15s ease,border-color .15s ease}
+    .def-video-card:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.3)}
+    .def-video-thumb{position:relative;aspect-ratio:16/9;background:#0b0b0f}
+    .def-video-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+    .def-video-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,rgba(0,0,0,.15),rgba(0,0,0,.45))}
+    .def-video-play svg{width:56px;height:56px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.6));transition:transform .15s ease}
+    .def-video-card:hover .def-video-play svg{transform:scale(1.12)}
+    .def-video-kind{position:absolute;top:8px;left:8px;font-size:.7rem;font-weight:700;padding:3px 8px;border-radius:999px;background:rgba(0,0,0,.72);color:#fff;letter-spacing:.4px}
+    .def-video-kind.playlist{background:#1a6fd4}
+    .def-video-body{padding:.7rem .8rem .9rem}
+    .def-video-tag{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:2px 8px;border-radius:6px;background:rgba(255,255,255,.1);margin-bottom:.45rem}
+    .def-video-title{font-size:.92rem;font-weight:600;line-height:1.35;margin:0 0 .35rem}
+    .def-video-channel{font-size:.78rem;opacity:.65}
+    .def-video-embed{aspect-ratio:16/9;width:100%}
+    .def-video-embed iframe{width:100%;height:100%;border:0}
+  </style>
+
+  <h2>Important Videos</h2>
+  <p class="def-videos-sub">Handpicked free lectures and SSB guidance from India's defence-prep channels. Click any card to play it right here — no new tab needed.</p>
+
+  <div class="def-videos-grid" id="def-videos-grid">
+
+    <!-- MATHEMATICS -->
+    <article class="def-video-card" data-kind="video" data-vid="_th9Fb8AyDc" tabindex="0" role="button" aria-label="Play video: NDA Mathematics — Matrix and Determinant">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/_th9Fb8AyDc/hqdefault.jpg" loading="lazy" alt="NDA Mathematics: Matrix and Determinant thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">Mathematics</span>
+        <p class="def-video-title">NDA Mathematics: Matrix and Determinant — full chapter class for NDA 2 2026</p>
+        <p class="def-video-channel">Defence Wallah</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="RQ5fF4dwkXQ" tabindex="0" role="button" aria-label="Play video: NDA Maths MIQ and PYQ one shot">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/RQ5fF4dwkXQ/hqdefault.jpg" loading="lazy" alt="NDA Maths MIQ and PYQ one-shot thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">Mathematics</span>
+        <p class="def-video-title">NDA Maths: Most Important Questions &amp; PYQs — one-shot revision</p>
+        <p class="def-video-channel">Defence Wallah</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="ISV6Z5zCSh0" tabindex="0" role="button" aria-label="Play video: Ellipse conic section NDA maths">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/ISV6Z5zCSh0/hqdefault.jpg" loading="lazy" alt="Ellipse conic section NDA 2026 maths thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">Mathematics</span>
+        <p class="def-video-title">Ellipse (Conic Section) — complete concept live class for NDA 2026</p>
+        <p class="def-video-channel">Centurion Digital — NDA &amp; NDA Foundation</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="9j0Xh3c-pAc" tabindex="0" role="button" aria-label="Play video: Sets all tricks for NDA">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/9j0Xh3c-pAc/hqdefault.jpg" loading="lazy" alt="Sets all tricks for NDA 2 2026 thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">Mathematics</span>
+        <p class="def-video-title">Sets — all tricks in 9 minutes for NDA 2 2026 (Mohit Sir)</p>
+        <p class="def-video-channel">NDA Par Jeet</p>
+      </div>
+    </article>
+
+    <!-- ENGLISH -->
+    <article class="def-video-card" data-kind="video" data-vid="8fXUCIhIbjc" tabindex="0" role="button" aria-label="Play video: NDA English subject verb agreement">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/8fXUCIhIbjc/hqdefault.jpg" loading="lazy" alt="NDA English subject verb agreement thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">English</span>
+        <p class="def-video-title">NDA 2 2026 English: Subject–Verb Agreement — grammar class</p>
+        <p class="def-video-channel">Sandeep Sir's Doon Defence Academy</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="KUvJHaxOh4A" tabindex="0" role="button" aria-label="Play video: CDS English practice set 2026">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/KUvJHaxOh4A/hqdefault.jpg" loading="lazy" alt="CDS English practice set 2026 thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">English</span>
+        <p class="def-video-title">CDS English Practice Set 2026 — 1000+ questions practice</p>
+        <p class="def-video-channel">MKC CDS, CAPF, AFCAT Classes</p>
+      </div>
+    </article>
+
+    <!-- DEFENCE GK -->
+    <article class="def-video-card" data-kind="video" data-vid="4Zg72H3WDxY" tabindex="0" role="button" aria-label="Play video: CDS 2026 current affairs part 1">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/4Zg72H3WDxY/hqdefault.jpg" loading="lazy" alt="CDS 2026 current affairs thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">Defence GK</span>
+        <p class="def-video-title">Defence Current Affairs for CDS/NDA 2026 — complete coverage (Part 1)</p>
+        <p class="def-video-channel">Insight SSB</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="MGpy2Km16sw" tabindex="0" role="button" aria-label="Play video: GKToday daily current affairs">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/MGpy2Km16sw/hqdefault.jpg" loading="lazy" alt="GKToday current affairs thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">Defence GK</span>
+        <p class="def-video-title">Daily Current Affairs MCQs with explanations — for GAT/CDS/AFCAT</p>
+        <p class="def-video-channel">GKToday</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="cW-fIL0ibFg" tabindex="0" role="button" aria-label="Play video: AFCAT GK free class">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/cW-fIL0ibFg/hqdefault.jpg" loading="lazy" alt="AFCAT GK free class thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">Defence GK</span>
+        <p class="def-video-title">AFCAT GK — free concept class (Class 02), also useful for CDS 2</p>
+        <p class="def-video-channel">INDEPTH CLASSES</p>
+      </div>
+    </article>
+
+    <!-- SSB GUIDANCE -->
+    <article class="def-video-card" data-kind="video" data-vid="mHaXwjuc3gs" tabindex="0" role="button" aria-label="Play video: 5 days SSB interview explained">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/mHaXwjuc3gs/hqdefault.jpg" loading="lazy" alt="5 days SSB interview explained thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">SSB Guidance</span>
+        <p class="def-video-title">5-Day SSB Interview Explained — the full selection process, day by day</p>
+        <p class="def-video-channel">SSBCrackExams</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="eeY4rwhFAbk" tabindex="0" role="button" aria-label="Play video: why most SSB candidates are rejected">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/eeY4rwhFAbk/hqdefault.jpg" loading="lazy" alt="Why most SSB candidates are rejected thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">SSB Guidance</span>
+        <p class="def-video-title">Why Most SSB Candidates Are Rejected — officer-mindset advice</p>
+        <p class="def-video-channel">Maj Anita Rathore</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="nrCW8wPgiwo" tabindex="0" role="button" aria-label="Play video: SSB TAT full mock test">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/nrCW8wPgiwo/hqdefault.jpg" loading="lazy" alt="SSB TAT full mock test thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">SSB Guidance</span>
+        <p class="def-video-title">SSB TAT Full Mock Test (Set 5) — real-time psychology practice</p>
+        <p class="def-video-channel">SSB PSYCH TEST</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="izJFkVdvgDU" tabindex="0" role="button" aria-label="Play video: insights from an interview officer">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/izJFkVdvgDU/hqdefault.jpg" loading="lazy" alt="Insights from an SSB interview officer thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">SSB Guidance</span>
+        <p class="def-video-title">Be Your Own Self — insights from a former SSB Interview Officer</p>
+        <p class="def-video-channel">SAINIK GUROOKOOL</p>
+      </div>
+    </article>
+
+    <article class="def-video-card" data-kind="video" data-vid="s-UsEMsl0bM" tabindex="0" role="button" aria-label="Play video: real candidate SSB experience">
+      <div class="def-video-thumb">
+        <img src="https://i.ytimg.com/vi/s-UsEMsl0bM/hqdefault.jpg" loading="lazy" alt="Real candidate SSB experience thumbnail">
+        <div class="def-video-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.63-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24L27 14v20" fill="#fff"/></svg></div>
+        <span class="def-video-kind">Video</span>
+      </div>
+      <div class="def-video-body">
+        <span class="def-video-tag">SSB Guidance</span>
+        <p class="def-video-title">My Journey Through India's Toughest Interview — a real candidate's SSB walkthrough</p>
+        <p class="def-video-channel">Pranav Sreenath</p>
+      </div>
+    </article>
+
+  </div>
+
+  <script>
+  (function(){
+    var grid = document.getElementById('def-videos-grid');
+    if(!grid || grid.dataset.defVideosBound) return;
+    grid.dataset.defVideosBound = '1';
+    function play(card){
+      if(card.querySelector('iframe')) return;
+      var kind = card.getAttribute('data-kind');
+      var src;
+      if(kind === 'playlist'){
+        src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + encodeURIComponent(card.getAttribute('data-list')) + '&autoplay=1';
+      } else {
+        src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(card.getAttribute('data-vid')) + '?autoplay=1&rel=0';
+      }
+      var thumb = card.querySelector('.def-video-thumb');
+      if(!thumb) return;
+      thumb.innerHTML = '';
+      var wrap = document.createElement('div');
+      wrap.className = 'def-video-embed';
+      var ifr = document.createElement('iframe');
+      ifr.src = src;
+      ifr.title = card.getAttribute('aria-label') || 'Embedded YouTube video';
+      ifr.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      ifr.setAttribute('allowfullscreen', '');
+      wrap.appendChild(ifr);
+      thumb.appendChild(wrap);
+      thumb.classList.add('is-playing');
+    }
+    grid.addEventListener('click', function(e){
+      var card = e.target.closest('.def-video-card');
+      if(card) play(card);
+    });
+    grid.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){
+        var card = e.target.closest('.def-video-card');
+        if(card){ e.preventDefault(); play(card); }
+      }
+    });
+  })();
+  </script>
+</section>
       <div class="footer-line"><span>Study snapshot: 26 September 2026</span><span>Exam-ready means written + judgement + fitness.</span></div>
     </div>
   </main>
